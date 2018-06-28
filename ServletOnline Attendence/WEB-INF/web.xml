@@ -1,0 +1,59 @@
+<web-app>
+  
+  <welcome-file-list>
+   <welcome-file>FirstPage.html</welcome-file>
+</welcome-file-list>
+  
+  <servlet>
+    <servlet-name>FinalServlet</servlet-name>
+    <servlet-class>FinalServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FinalServlet</servlet-name>
+    <url-pattern>/FinalServlet</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>FinalServlet2</servlet-name>
+    <servlet-class>FinalServlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FinalServlet2</servlet-name>
+    <url-pattern>/FinalServlet2</url-pattern>
+  </servlet-mapping>
+  
+    <servlet>
+    <servlet-name>FinalServlet3</servlet-name>
+    <servlet-class>FinalServlet3</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>FinalServlet3</servlet-name>
+    <url-pattern>/FinalServlet3</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>StudentServlet</servlet-name>
+    <servlet-class>StudentServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StudentServlet</servlet-name>
+    <url-pattern>/StudentServlet</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+    <servlet-name>StudentSignUp</servlet-name>
+    <servlet-class>StudentSignUp</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>StudentSignUp</servlet-name>
+    <url-pattern>/StudentSignUp</url-pattern>
+  </servlet-mapping>
+  
+</web-app> 
+
+
